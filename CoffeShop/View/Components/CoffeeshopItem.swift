@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct CoffeshopRow: View {
+struct CoffeeshopItem: View {
     var coffee: Coffeeshop
     
     var body: some View {
@@ -34,5 +34,5 @@ struct CoffeshopRow: View {
 }
 
 #Preview {
-    CoffeshopRow(coffee: CoffeeshopProvider.allData().first!)
+    CoffeeshopItem(coffee: CoffeeshopProvider.allData().first!)
 }
