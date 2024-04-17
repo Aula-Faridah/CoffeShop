@@ -8,14 +8,17 @@
 import SwiftUI
 
 struct ContentView: View {
+    var coffee: [Coffeeshop] = CoffeeshopProvider.allData()
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        NavigationStack{
+            List(coffee) {coffee in
+                CoffeeshopItem(coffee: coffee)
+                    .listRowSeparator(.hidden)
+            }
+            .navigationTitle("Coffeeeshop")
+            .listStyle(.grouped)
         }
-        .padding()
     }
 }
 

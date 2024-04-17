@@ -12,7 +12,7 @@
 		52B544432BCF9E83009644E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52B544422BCF9E83009644E5 /* Assets.xcassets */; };
 		52B544462BCF9E83009644E5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52B544452BCF9E83009644E5 /* Preview Assets.xcassets */; };
 		52B544512BCFA0EA009644E5 /* Coffeeshop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B544502BCFA0EA009644E5 /* Coffeeshop.swift */; };
-		52B544542BCFA385009644E5 /* CoffeshopItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B544532BCFA385009644E5 /* CoffeshopItem.swift */; };
+		52B544542BCFA385009644E5 /* CoffeeshopItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B544532BCFA385009644E5 /* CoffeeshopItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,7 +22,7 @@
 		52B544422BCF9E83009644E5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		52B544452BCF9E83009644E5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		52B544502BCFA0EA009644E5 /* Coffeeshop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coffeeshop.swift; sourceTree = "<group>"; };
-		52B544532BCFA385009644E5 /* CoffeshopItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeshopItem.swift; sourceTree = "<group>"; };
+		52B544532BCFA385009644E5 /* CoffeeshopItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeshopItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,7 +108,7 @@
 		52B544522BCFA371009644E5 /* Components */ = {
 			isa = PBXGroup;
 			children = (
-				52B544532BCFA385009644E5 /* CoffeshopItem.swift */,
+				52B544532BCFA385009644E5 /* CoffeeshopItem.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -185,7 +185,7 @@
 			files = (
 				52B544412BCF9E82009644E5 /* ContentView.swift in Sources */,
 				52B5443F2BCF9E82009644E5 /* CoffeShopApp.swift in Sources */,
-				52B544542BCFA385009644E5 /* CoffeshopItem.swift in Sources */,
+				52B544542BCFA385009644E5 /* CoffeeshopItem.swift in Sources */,
 				52B544512BCFA0EA009644E5 /* Coffeeshop.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
