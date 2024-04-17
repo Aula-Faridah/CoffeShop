@@ -13,6 +13,7 @@
 		52B544462BCF9E83009644E5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52B544452BCF9E83009644E5 /* Preview Assets.xcassets */; };
 		52B544512BCFA0EA009644E5 /* Coffeeshop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B544502BCFA0EA009644E5 /* Coffeeshop.swift */; };
 		52B544542BCFA385009644E5 /* CoffeeshopItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B544532BCFA385009644E5 /* CoffeeshopItem.swift */; };
+		52B544562BCFAAC0009644E5 /* CoffeeDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B544552BCFAAC0009644E5 /* CoffeeDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		52B544452BCF9E83009644E5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		52B544502BCFA0EA009644E5 /* Coffeeshop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coffeeshop.swift; sourceTree = "<group>"; };
 		52B544532BCFA385009644E5 /* CoffeeshopItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeshopItem.swift; sourceTree = "<group>"; };
+		52B544552BCFAAC0009644E5 /* CoffeeDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +87,7 @@
 			children = (
 				52B544522BCFA371009644E5 /* Components */,
 				52B544402BCF9E82009644E5 /* ContentView.swift */,
+				52B544552BCFAAC0009644E5 /* CoffeeDetailView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -185,6 +188,7 @@
 			files = (
 				52B544412BCF9E82009644E5 /* ContentView.swift in Sources */,
 				52B5443F2BCF9E82009644E5 /* CoffeShopApp.swift in Sources */,
+				52B544562BCFAAC0009644E5 /* CoffeeDetailView.swift in Sources */,
 				52B544542BCFA385009644E5 /* CoffeeshopItem.swift in Sources */,
 				52B544512BCFA0EA009644E5 /* Coffeeshop.swift in Sources */,
 			);

@@ -13,11 +13,17 @@ struct ContentView: View {
     var body: some View {
         NavigationStack{
             List(coffee) {coffee in
-                CoffeeshopItem(coffee: coffee)
-                    .listRowSeparator(.hidden)
+                NavigationLink {
+                    CoffeeDetailView(coffee: coffee)
+                } label: {
+                    CoffeeshopItem(coffee: coffee)
+                }
+                .listRowSeparator(.hidden)
+
             }
             .navigationTitle("Coffeeeshop")
-            .listStyle(.grouped)
+            .navigationBarTitleDisplayMode(.inline)
+            .listStyle(.plain)
         }
     }
 }
