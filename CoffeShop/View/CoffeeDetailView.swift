@@ -9,6 +9,7 @@ import SwiftUI
 
 struct CoffeeDetailView: View {
     var coffee: Coffeeshop
+    @Environment(\.dismiss) var dismiss
     
     var body: some View {
         NavigationStack{
@@ -42,10 +43,22 @@ struct CoffeeDetailView: View {
                     Text(coffee.overview)
                         .font(.system(.headline, design: .serif))
                         .padding()
-                        .padding(.leading)
+                        .padding(.horizontal)
                 }
             }
             .ignoresSafeArea()
+            .navigationBarBackButtonHidden(true)
+            .toolbar{
+                ToolbarItem(placement: .topBarLeading, content:     {
+                    Button{
+                        dismiss()
+                    } label: {
+                        Image(systemName: "chevron.left.circle.fill")
+                            .font(.title2)
+                    }
+                    .tint(.orange)
+                })
+            }
             
         }
         
